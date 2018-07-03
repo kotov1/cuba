@@ -1,5 +1,52 @@
 @import "vars"
 
+@media only screen and (max-width : 1400px)
+
+	/* ------------------------------------- 
+		complectation2
+		------------------------------------- */
+	.complectation2
+		&__item
+			&-title
+				padding-left: 50px
+				font-size: 26px
+			&-descr
+				padding: 37px 50px
+
+
+
+	/* ------------------------------------- 
+		.decision
+		------------------------------------- */
+	.decision
+		padding-bottom: 500px
+		&__img
+			top: 275px
+
+
+
+
+	/* ------------------------------------- 
+		.acoustics
+		------------------------------------- */
+	.acoustics
+		padding-top: 355px
+		&__block1
+			flex: 0 0 45%
+			max-width: 45%
+		&__block2
+			flex: 0 0 50%
+			max-width: 50%
+			margin-left: 5%
+		&__title, &__tagline
+			font-size: 4rem
+
+
+
+
+
+
+	/**/
 
 @media only screen and (max-width : 1199px)
 
@@ -110,10 +157,112 @@
 		content 
 		------------------------------------- */
 	.content
-		&::before
-			background-size: contain
 		&__block
 			font-size: 1.5rem
+
+
+
+	/* ------------------------------------- 
+		territory 
+		------------------------------------- */
+	.territory
+		&__container
+			flex-direction: column
+		&__main, &__side
+			flex: 0 0 100%
+			max-width: 100%
+		&__side
+			margin-top: 30px
+			padding-bottom: 30px
+			&-info-title
+				margin-top: 30px
+		&__title
+			font-size: 2.75rem
+		&__info
+			margin-top: 30px
+			font-size: 2.125rem
+			border-bottom-width: 2px
+		&__txt
+			padding-right: 0
+		&__chart
+			margin: 30px auto
+			width: 260px
+			height: 260px
+			&-item1
+				left: 10px
+			&-item2
+				right: 40px
+
+
+
+	/* ------------------------------------- 
+		complectation1 
+		------------------------------------- */
+	.complectation1
+		padding-top: 15px
+		&__title
+			position: static 
+			transform: none
+			text-align: center
+
+
+
+	/* ------------------------------------- 
+		complectation2
+		------------------------------------- */
+	.complectation2
+		padding-bottom: 50px
+		&__title
+			font-size: 3rem
+		&__container
+			flex-direction: column
+			&::before, &::after
+				display: none
+		&__item
+			flex: 0 0 100%
+			max-width: 100%
+		
+
+
+
+	/* ------------------------------------- 
+		.decision
+		------------------------------------- */
+	.decision
+		padding-bottom: 50px
+		&__container
+			padding-top: 50px
+		&__info
+			font-size: 3rem
+			line-height: 1.2
+		&__img
+			margin-top: 50px
+			position: static
+			transform: none
+
+
+
+
+	/* ------------------------------------- 
+		.acoustics
+		------------------------------------- */
+	.acoustics
+		padding-top: 50px
+		&__container
+			display: block
+		&__block1
+			max-width: 100%
+		&__block2
+			max-width: 100%
+			margin-left: 0
+		&__title, &__tagline
+			font-size: 3rem
+		&__txt-title
+			line-height: 1.2
+		
+
+
+
 
 
 
@@ -209,6 +358,101 @@
 	.content
 		&__block
 			font-size: 1.25rem
+
+
+
+	/* ------------------------------------- 
+		territory 
+		------------------------------------- */
+	.territory
+		&__container
+			flex-direction: column
+		&__main, &__side
+			flex: 0 0 100%
+			max-width: 100%
+		&__side
+			padding: 15px
+			&-info-title
+				line-height: 1.2
+			&-info-list li
+				margin-bottom: 10px
+				line-height: 1.2
+				br
+					display: none
+		&__title
+			font-size: 2.75rem
+			line-height: 1.2
+		&__info
+			margin-top: 30px
+
+
+
+
+	/* ------------------------------------- 
+		complectation1 
+		------------------------------------- */
+	.complectation1
+		&__title
+			margin-bottom: 1rem
+			font-size: 1.7rem
+			color: lighten(#383837, 25%)
+
+
+
+	/* ------------------------------------- 
+		complectation2
+		------------------------------------- */
+	.complectation2
+		&__title
+			font-size: 2em
+			padding-left: 0
+		&__item
+			&-title
+				font-size: 20px
+				padding: 15px
+			&-descr
+				padding: 25px
+
+
+
+
+	/* ------------------------------------- 
+		.decision
+		------------------------------------- */
+	.decision
+		&__title
+			font-size: 2rem
+		&__info
+			font-size: 40px
+
+
+
+	/* ------------------------------------- 
+		.acoustics
+		------------------------------------- */
+	.acoustics
+		padding-top: 50px
+		&__container
+			display: block
+		&__block1
+			max-width: 100%
+		&__block2
+			max-width: 100%
+			margin-left: 0
+		&__title, &__tagline
+			line-height: 1.2
+		&__tagline
+			margin-bottom: 30px
+			font-size: 36px
+		&__txt-title
+			margin-bottom: 15px
+			font-size: 2rem
+			line-height: .9
+		&__txt
+			font-size: 1.125rem
+		&__title
+			padding: .5em 0
+			font-size: 32px
 
 
 
